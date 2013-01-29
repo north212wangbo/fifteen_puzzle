@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    //self.board = [[FifteenBoard alloc] init];
+    //[self.board scramble:NUM_SHUFFLES];
+    //[self arrangeBoardView];
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +29,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)tileSelected:(UIButton *)sender {
+    const int tag = [sender tag];
+    NSLog(@"tileSelected:%d",tag);
+}
+
+- (IBAction)scrambleTiles:(id)sender {
+    NSLog(@"New game selected");
+}
 @end

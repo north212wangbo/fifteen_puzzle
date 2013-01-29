@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface FifteenPuzzleViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *boardView;
+- (IBAction)tileSelected:(UIButton *)sender;
+- (IBAction)scrambleTiles:(id)sender;
 
 @end
