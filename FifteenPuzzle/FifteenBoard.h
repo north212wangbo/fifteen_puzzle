@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface FifteenBoard : NSObject
-@property (strong, nonatomic) NSMutableArray *location;
 
 
 -(id)init; //Initialize a new 15-puzzle board with the tiles in the solved configuration (only called once when the puzzle is instantialted)

@@ -8,12 +8,20 @@
 
 #import "FifteenBoard.h"
 
-@implementation FifteenBoard
-
-int location[4][4]= {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,0}};
+@implementation FifteenBoard {
+    int location[4][4];
+}
 
 -(id)init{
-    //location[4][4] = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,0}};
+    self = [super init];
+    if (self) {
+        int i = 1;
+        for (int r = 0; r < 4; r++)
+            for (int c = 0; c < 4; c++)
+                location[r][c] = i++;
+        location[3][3] = 0;
+    }
+    return self;
 }
 
 //-(void)scramble:(int)n
@@ -24,7 +32,7 @@ int location[4][4]= {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,0}};
     for(int i=0; i<4; ++i){
         for(int j=0; j<4; ++j){
             //if (location[i][j] == tile){
-                NSLog(@"location[i][j] = %d", location[i][j]);
+                //NSLog(@"location[i][j] = %d", location[i][j]);
             //}
         }
     }
@@ -32,7 +40,7 @@ int location[4][4]= {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,0}};
 
 //-(BOOL)isSolved
 
--(BOOL)canSlideTileUpAtRow:(int)row Column:(int)col{
+/*-(BOOL)canSlideTileUpAtRow:(int)row Column:(int)col{
     if (row > 0) {
         if (location[row-1][col] == 0)
             return YES;
@@ -40,7 +48,7 @@ int location[4][4]= {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,0}};
             return NO;
     }
     return NO;
-}
+}*/
 
 //-(BOOL)canSlideTileDownAtRow:(int)row Column:(int)col
 
