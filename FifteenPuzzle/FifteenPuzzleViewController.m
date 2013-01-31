@@ -32,6 +32,16 @@
 - (IBAction)tileSelected:(UIButton *)sender {
     const int tag = [sender tag];
     NSLog(@"tileSelected:%d",tag);
+    int row, col;
+    [self.board getRow:&row Column:&col ForTile:tag];
+    NSLog(@"row= %d, col = %d", row,col);
+    CGRect buttonFrame = sender.frame;
+//    if ([self.board canSlideTileUpAtRow:row Column:col]) {
+        [self.board slideTileAtRow:row Column:col];
+        buttonFrame.origin.y = buttonFrame.origin.y - buttonFrame.size.height;
+        [UIView animateWithDuration:0.5 animations:^{sender.frame = buttonFrame;}];
+//    }
+    
 }
 
 - (IBAction)scrambleTiles:(id)sender {

@@ -18,6 +18,7 @@
 		2C4BED0E16B7318800465074 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BED0D16B7318800465074 /* Default-568h@2x.png */; };
 		2C4BED1116B7318800465074 /* FifteenPuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BED1016B7318800465074 /* FifteenPuzzleViewController.m */; };
 		2C4BED1416B7318800465074 /* FifteenPuzzleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BED1216B7318800465074 /* FifteenPuzzleViewController.xib */; };
+		2CA0212A16B89A1500513807 /* FifteenBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0212916B89A1500513807 /* FifteenBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		2C4BED0F16B7318800465074 /* FifteenPuzzleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FifteenPuzzleViewController.h; sourceTree = "<group>"; };
 		2C4BED1016B7318800465074 /* FifteenPuzzleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FifteenPuzzleViewController.m; sourceTree = "<group>"; };
 		2C4BED1316B7318800465074 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FifteenPuzzleViewController.xib; sourceTree = "<group>"; };
+		2CA0212816B89A1500513807 /* FifteenBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifteenBoard.h; sourceTree = "<group>"; };
+		2CA0212916B89A1500513807 /* FifteenBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifteenBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				2C4BED0F16B7318800465074 /* FifteenPuzzleViewController.h */,
 				2C4BED1016B7318800465074 /* FifteenPuzzleViewController.m */,
 				2C4BED1216B7318800465074 /* FifteenPuzzleViewController.xib */,
+				2CA0212816B89A1500513807 /* FifteenBoard.h */,
+				2CA0212916B89A1500513807 /* FifteenBoard.m */,
 				2C4BECFE16B7318800465074 /* Supporting Files */,
 			);
 			path = FifteenPuzzle;
@@ -177,6 +182,7 @@
 				2C4BED0416B7318800465074 /* main.m in Sources */,
 				2C4BED0816B7318800465074 /* FifteenPuzzleAppDelegate.m in Sources */,
 				2C4BED1116B7318800465074 /* FifteenPuzzleViewController.m in Sources */,
+				2CA0212A16B89A1500513807 /* FifteenBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +299,7 @@
 				2C4BED1916B7318800465074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
