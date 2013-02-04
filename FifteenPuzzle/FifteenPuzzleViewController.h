@@ -11,7 +11,8 @@
 
 @interface FifteenPuzzleViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIView *boardView;
-@property (strong, nonatomic) FifteenBoard *board;
+@property (weak, nonatomic) IBOutlet UIButton *buttonView;
+
 - (IBAction)tileSelected:(UIButton *)sender;
 - (IBAction)scrambleTiles:(id)sender;
 

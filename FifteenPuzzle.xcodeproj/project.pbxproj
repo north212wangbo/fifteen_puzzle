@@ -19,6 +19,8 @@
 		2C4BED1116B7318800465074 /* FifteenPuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BED1016B7318800465074 /* FifteenPuzzleViewController.m */; };
 		2C4BED1416B7318800465074 /* FifteenPuzzleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BED1216B7318800465074 /* FifteenPuzzleViewController.xib */; };
 		2CA0212A16B89A1500513807 /* FifteenBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0212916B89A1500513807 /* FifteenBoard.m */; };
+		2CC6FB5C16C05E1D008C6DAA /* tumei.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC6FB5B16C05E1D008C6DAA /* tumei.png */; };
+		2CC6FB5F16C05FBA008C6DAA /* shiny-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC6FB5E16C05FBA008C6DAA /* shiny-button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		2C4BED1316B7318800465074 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FifteenPuzzleViewController.xib; sourceTree = "<group>"; };
 		2CA0212816B89A1500513807 /* FifteenBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifteenBoard.h; sourceTree = "<group>"; };
 		2CA0212916B89A1500513807 /* FifteenBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifteenBoard.m; sourceTree = "<group>"; };
+		2CC6FB5B16C05E1D008C6DAA /* tumei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tumei.png; sourceTree = "<group>"; };
+		2CC6FB5E16C05FBA008C6DAA /* shiny-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shiny-button.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 				2C4BED1216B7318800465074 /* FifteenPuzzleViewController.xib */,
 				2CA0212816B89A1500513807 /* FifteenBoard.h */,
 				2CA0212916B89A1500513807 /* FifteenBoard.m */,
+				2CC6FB5B16C05E1D008C6DAA /* tumei.png */,
+				2CC6FB5E16C05FBA008C6DAA /* shiny-button.png */,
 				2C4BECFE16B7318800465074 /* Supporting Files */,
 			);
 			path = FifteenPuzzle;
@@ -169,6 +175,8 @@
 				2C4BED0C16B7318800465074 /* Default@2x.png in Resources */,
 				2C4BED0E16B7318800465074 /* Default-568h@2x.png in Resources */,
 				2C4BED1416B7318800465074 /* FifteenPuzzleViewController.xib in Resources */,
+				2CC6FB5C16C05E1D008C6DAA /* tumei.png in Resources */,
+				2CC6FB5F16C05FBA008C6DAA /* shiny-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
