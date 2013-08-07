@@ -31,7 +31,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    /*Pretty Buttons
+    //Pretty Buttons
+    /*
     UIImage* image = [UIImage imageNamed:@"shiny-button.png"];
     UIImage* stretchyShinyImage = [image resizableImageWithCapInsets:UIEdgeInsetsMake(10, 10, 10, 10) resizingMode:UIImageResizingModeStretch];
     for (int tile = 1; tile <= 15; tile ++) {
@@ -40,8 +41,10 @@
     }*/
     
     //Back Ground image
+    
     UIImage* image = [UIImage imageNamed:@"cougar.jpeg"];
     [self setBackgroundImageOfButtons:image];
+     
     
     //Scramble at the beginning of game 
     NSLog(@"board initiated");
